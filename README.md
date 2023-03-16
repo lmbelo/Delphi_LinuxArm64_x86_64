@@ -1,3 +1,7 @@
+# Setup a Delphi Linux profile under Linux AMR64
+
+### Create the SDK, deploy and run Delphi Linuxx86_64 apps on Linux ARM64
+    
 **Preparing the environment**
 1) sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
 
