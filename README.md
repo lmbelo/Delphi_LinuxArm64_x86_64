@@ -14,6 +14,9 @@
 
 **Installing the AMD64 packages**
 1) sudo apt install libc6:amd64 joe:amd64 wget:amd64 p7zip-full:amd64 curl:amd64 openssh-server:amd64 crossbuild-essential-amd64 zlib1g-dev:amd64 libcurl4-gnutls-dev:amd64 libncurses5:amd64
+2) create the necessary links required by PAServer
+    - sudo ln -s /usr/x86_64-linux-gnu/include/c++/ /usr/include/x86_64-linux-gnu/c++
+    - sudo ln -s /usr/lib/gcc-cross/x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu/
 
 **Getting ready for Delphi**
 1) Download and extract the PAServer - it will run under amd64
