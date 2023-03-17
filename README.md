@@ -1,4 +1,4 @@
-# Setup a Delphi Linux profile under Linux Arm64
+# Setup a Delphi Linux profile under Linux Arm64 (Ubuntu)
 
 > **Download the SDK, deploy and run Delphi Linux x86_64 apps on Linux ARM64**
 
