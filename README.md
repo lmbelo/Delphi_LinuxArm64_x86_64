@@ -1,6 +1,6 @@
 # Setup a Delphi Linux profile under Linux Arm64 (Ubuntu)
 
-> **Download the SDK, deploy and run Delphi Linux x86_64 apps on Linux ARM64**
+> **Download the SDK, deploy and run Delphi Linux x86_64 apps on Linux Arm64**
 
 **-----> Tested on a fresh Parallels Ubuntu 22.04 Arm64 <-----**
 
