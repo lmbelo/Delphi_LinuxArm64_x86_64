@@ -11,7 +11,7 @@
 1) Place the "amd64.list" file into "/etc/apt/sources.list.d/" to create the AMD64 repository list
     - Open terminal
     - cd /etc/apt/sources.list.d/
-    - sudo wget https://github.com/lmbelo/LinuxARM64_x86_64/blob/main/amd64.list
+    - sudo wget https://raw.githubusercontent.com/lmbelo/Delphi_LinuxARM64_x86_64/main/amd64.list
 2) sudo apt install -y qemu-user-static binfmt-support
 3) sudo dpkg --add-architecture amd64
 4) sudo apt update
