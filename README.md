@@ -41,6 +41,11 @@
         - set it as the default Linux profile
     4) Compile and deploy your app to your Linux Arm
     
-5) **Attention**
+6) **Debugging**
+    1) Setup Python3.7 for LLDB (UNDER PROGRESS)
+    2) If you want to debug a shared library:
+        - sudo apt install xterm:amd64
+        
+7) **Attention**
     1) Don't try to install build-essential:amd64
     2) Don't try to install gcc:amd64
