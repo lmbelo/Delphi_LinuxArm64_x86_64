@@ -15,6 +15,7 @@
         - Open terminal
         - cd /etc/apt/sources.list.d/
         - sudo wget https://raw.githubusercontent.com/lmbelo/Delphi_LinuxARM64_x86_64/main/amd64.list
+        - sudo wget https://raw.githubusercontent.com/lmbelo/Delphi_LinuxArm64_x86_64/main/deadsnakes-ubuntu-ppa-jammy.list
     2) sudo apt install -y qemu-user-static binfmt-support
     3) sudo dpkg --add-architecture amd64
     4) sudo apt update
