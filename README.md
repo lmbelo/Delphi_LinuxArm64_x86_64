@@ -38,3 +38,7 @@
         - download the SDK
         - set it as the default Linux profile
     4) Compile and deploy your app to your Linux ARM
+    
+5) **Attention**
+    1) Don't try to install build-essential:amd64
+    2) Don't try to install gcc:amd64
