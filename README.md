@@ -24,7 +24,7 @@ Run-time common libraries:
         - sudo ln -s /usr/lib/gcc-cross/x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu
 GUI libraries:
     1) sudo apt install libgtk-3-dev:amd64
-    2) sudo apt install libcanberra-gtk-module:adm64 libcanberra-gtk3-module:amd64
+    2) sudo apt install libcanberra-gtk-module:amd64 libcanberra-gtk3-module:amd64
 
 **Getting ready for Delphi**
 1) Download and extract the PAServer - it will run under amd64
