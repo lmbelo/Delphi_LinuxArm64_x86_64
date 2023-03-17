@@ -3,12 +3,14 @@
 > **Download the SDK, deploy and run Delphi Linux_x86_64 apps on Linux ARM64**
 
 **-----> Tested on a fresh Parallels Ubuntu 22.04 Arm64 <-----**
+
+1) **Create the Ubuntu 22.04 ARM64 virtual machine using Parallels**
     
-1) **Preparing the environment**
+2) **Preparing the environment**
     1) sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
     2) Important: Make sure your system has been updated before proceeding
 
-2) **Enabling the amd64 layer**
+3) **Enabling the amd64 layer**
     1) Place the "amd64.list" file into "/etc/apt/sources.list.d/" to create the AMD64 repository list
         - Open terminal
         - cd /etc/apt/sources.list.d/
@@ -17,7 +19,7 @@
     3) sudo dpkg --add-architecture amd64
     4) sudo apt update
 
-3) **Installing the AMD64 packages**
+4) **Installing the AMD64 packages**
     1) Run-time common libraries:
         1) sudo apt install libc6:amd64 joe:amd64 wget:amd64 p7zip-full:amd64 curl:amd64 openssh-server:amd64 crossbuild-essential-amd64 zlib1g-dev:amd64 libcurl4-gnutls-dev:amd64 libncurses5:amd64 libasound2-plugins:amd64
         2) create the necessary links required by PAServer
@@ -26,7 +28,7 @@
     2) GUI libraries:
         1) sudo apt install libgtk-3-dev:amd64 libcanberra-gtk-module:amd64 libcanberra-gtk3-module:amd64 
 
-4) **Getting ready for Delphi**
+5) **Getting ready for Delphi**
     1) Download and extract the PAServer - it will run under amd64
     2) Run the PAServer
         - cd {PASERVER_DIR}
