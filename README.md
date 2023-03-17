@@ -4,7 +4,7 @@
 
 **-----> Tested on a fresh Parallels Ubuntu 22.04 Arm64 <-----**
 
-1) **Create the Ubuntu 22.04 ARM64 virtual machine using Parallels**
+1) **Create the Ubuntu 22.04 Arm64 virtual machine using Parallels**
     
 2) **Preparing the environment**
     1) sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
