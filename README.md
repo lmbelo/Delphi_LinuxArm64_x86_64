@@ -11,7 +11,7 @@
     2) Important: Make sure your system has been updated before proceeding
 
 3) **Enabling the amd64 layer**
-    1) Place the "amd64.list" file into "/etc/apt/sources.list.d/" to create the AMD64 repository list
+    1) Place the "amd64.list" file into "/etc/apt/sources.list.d/" to create the amd64 repository list
         - Open terminal
         - cd /etc/apt/sources.list.d/
         - sudo wget https://raw.githubusercontent.com/lmbelo/Delphi_LinuxARM64_x86_64/main/amd64.list
