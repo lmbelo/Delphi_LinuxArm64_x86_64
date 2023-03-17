@@ -19,7 +19,7 @@
     3) sudo dpkg --add-architecture amd64
     4) sudo apt update
 
-4) **Installing the AMD64 packages**
+4) **Installing the x86_64 packages**
     1) Run-time common libraries:
         1) sudo apt install libc6:amd64 joe:amd64 wget:amd64 p7zip-full:amd64 curl:amd64 openssh-server:amd64 crossbuild-essential-amd64 zlib1g-dev:amd64 libcurl4-gnutls-dev:amd64 libncurses5:amd64 libasound2-plugins:amd64
         2) create the necessary links required by PAServer
@@ -39,7 +39,7 @@
         - create the Linux profile
         - download the SDK
         - set it as the default Linux profile
-    4) Compile and deploy your app to your Linux ARM
+    4) Compile and deploy your app to your Linux Arm
     
 5) **Attention**
     1) Don't try to install build-essential:amd64
