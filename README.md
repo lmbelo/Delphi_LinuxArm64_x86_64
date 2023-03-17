@@ -43,9 +43,7 @@
     4) Compile and deploy your app to your Linux Arm
     
 6) **Debugging**
-    1) Setup Python3.7 for LLDB (UNDER PROGRESS)
-    2) If you want to debug a shared library:
-        - sudo apt install xterm:amd64
+    1) WORK IN PROGRESS
         
 7) **Attention**
     1) Don't try to install build-essential:amd64
