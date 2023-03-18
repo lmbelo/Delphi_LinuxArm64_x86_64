@@ -21,25 +21,25 @@
 
 4) **Installing x86_64 packages**
     1) Run-time common libraries:
-        1) sudo apt install joe:amd64 wget:amd64 p7zip-full:amd64 curl:amd64 openssh-server:amd64 crossbuild-essential-amd64 zlib1g-dev:amd64 libcurl4-gnutls-dev:amd64 libncurses5:amd64 libasound2-plugins:amd64
-        2) create the necessary symlinks required by PAServer
-            - sudo ln -s /usr/x86_64-linux-gnu/include/c++/ /usr/include/x86_64-linux-gnu/c++
-            - sudo ln -s /usr/lib/gcc-cross/x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu
+        1) sudo apt install joe:amd64 wget:amd64 p7zip-full:amd64 curl:amd64 openssh-server:amd64 crossbuild-essential-amd64 zlib1g-dev:amd64 libcurl4-gnutls-dev:amd64 libncurses5:amd64 libasound2-plugins:amd64    
     2) GUI libraries:
         1) sudo apt install libgtk-3-dev:amd64 libcanberra-gtk-module:amd64 libcanberra-gtk3-module:amd64 
 
 5) **Getting ready for Delphi**
-    1) Download and extract the PAServer - it will run under amd64
-    2) Run the PAServer
+    1) Create the necessary symlinks required by PAServer
+        - sudo ln -s /usr/x86_64-linux-gnu/include/c++/ /usr/include/x86_64-linux-gnu/c++
+        - sudo ln -s /usr/lib/gcc-cross/x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu
+    2) Download and extract the PAServer - it will run under amd64
+    3) Run the PAServer
         - cd {PASERVER_DIR}
         - sudo ./paserver
         - set a password or let it empty
         - type "i" to show your IP address
-    3) Download the amd64 SDK in Delphi
+    4) Download the amd64 SDK in Delphi
         - create the Linux profile
         - download the SDK
         - set it as the default Linux profile
-    4) Compile and deploy your app to your Linux Arm
+    5) Compile and deploy your app to your Linux Arm
     
 6) **Debugging**
     1) Add the deadsnakes repository to install libpython3.7 
