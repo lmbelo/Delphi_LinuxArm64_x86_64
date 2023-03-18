@@ -15,14 +15,13 @@
         - Open terminal
         - cd /etc/apt/sources.list.d/
         - sudo wget https://raw.githubusercontent.com/lmbelo/Delphi_LinuxARM64_x86_64/main/amd64.list
-        - sudo wget https://raw.githubusercontent.com/lmbelo/Delphi_LinuxArm64_x86_64/main/deadsnakes-ubuntu-ppa-jammy.list
     2) sudo apt install -y qemu-user-static binfmt-support
     3) sudo dpkg --add-architecture amd64
     4) sudo apt update
 
 4) **Installing x86_64 packages**
     1) Run-time common libraries:
-        1) sudo apt install libc6:amd64 joe:amd64 wget:amd64 p7zip-full:amd64 curl:amd64 openssh-server:amd64 crossbuild-essential-amd64 zlib1g-dev:amd64 libcurl4-gnutls-dev:amd64 libncurses5:amd64 libasound2-plugins:amd64
+        1) sudo apt install linux-libc-dev:amd64 joe:amd64 wget:amd64 p7zip-full:amd64 curl:amd64 zlib1g-dev:amd64 libcurl4-gnutls-dev:amd64 libncurses5:amd64 openssh-server:amd64 crossbuild-essential-amd64 libasound2-plugins:amd64
         2) create the necessary symlinks required by PAServer
             - sudo ln -s /usr/x86_64-linux-gnu/include/c++/ /usr/include/x86_64-linux-gnu/c++
             - sudo ln -s /usr/lib/gcc-cross/x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu
@@ -43,7 +42,11 @@
     4) Compile and deploy your app to your Linux Arm
     
 6) **Debugging**
-    1) WORK IN PROGRESS
+    1) Add the deadsnakes repository to install libpython3.7 
+       - sudo add-apt-repository ppa:deadsnakes/ppa   
+       - sudo apt-get update  
+       - sudo apt install libpython3.7-dev:amd64
+    2) WORK IN PROGRESS
         
 7) **Attention**
     1) Don't try to install build-essential:amd64
