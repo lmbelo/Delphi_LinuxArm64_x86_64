@@ -21,7 +21,7 @@
 
 4) **Installing x86_64 packages**
     1) Run-time common libraries:
-        1) sudo apt install linux-libc-dev:amd64 joe:amd64 wget:amd64 p7zip-full:amd64 curl:amd64 zlib1g-dev:amd64 libcurl4-gnutls-dev:amd64 libncurses5:amd64 openssh-server:amd64 crossbuild-essential-amd64 libasound2-plugins:amd64
+        1) sudo apt install joe:amd64 wget:amd64 p7zip-full:amd64 curl:amd64 openssh-server:amd64 crossbuild-essential-amd64 zlib1g-dev:amd64 libcurl4-gnutls-dev:amd64 libncurses5:amd64 libasound2-plugins:amd64
         2) create the necessary symlinks required by PAServer
             - sudo ln -s /usr/x86_64-linux-gnu/include/c++/ /usr/include/x86_64-linux-gnu/c++
             - sudo ln -s /usr/lib/gcc-cross/x86_64-linux-gnu/ /usr/lib/gcc/x86_64-linux-gnu
