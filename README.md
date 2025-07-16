@@ -48,6 +48,6 @@
        - sudo apt install libpython3.7-dev:amd64
     2) WORK IN PROGRESS
         
-7) **Attention**
+7) **Warning**
     1) Don't try to install build-essential:amd64
     2) Don't try to install gcc:amd64
